@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.imgbox {
+    display: grid;
+    height: 100%;
+}
+
+
 html, body {
     height: 100%;
     margin: 0;
@@ -41,21 +51,22 @@ header h1 {
 }
 
 #banner-image {
-    max-width: inherit;
+    /* max-width: inherit; */
+    max-width: 100%;
+    max-height: 100vh;
+    margin: auto;
 }
 
 main {
     min-height: 100vh;
     padding-top: 2em;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-bottom: 4em;
+    padding-bottom: 6em;
+    padding-left: 8vw;
+    padding-right: 8vw;
 }
 
 article {
-    padding-top: 1em;
-    padding-left: 2em;
-    padding-right: 2em;
+    padding-top: 5vh;
 }
 
 article h1 {
@@ -65,11 +76,13 @@ article p {
     font-family: 'Roboto', 'Helvetica', 'Arial', 'Lucida Sans', sans-serif;
     font-size: 140%;
     line-height: 150%;
+    padding-top: 1em;
 }
 
 footer {
     /*height: 15em;*/
     /* margin: 0; */
+    display: grid;
     border-top: 2px solid black;
     color: #ededed;
     background-color: #333;
@@ -80,7 +93,6 @@ footer {
 #footer-link-box {
     margin-left: auto;
     margin-right: auto;
-    padding-left: 5em;
     padding-top: 4em;
     padding-bottom: 5.5em;
     /* align-items: center;
@@ -92,7 +104,8 @@ footer {
     font-weight: normal;
 }
 #footer-link-box a {
-    padding-left: 1em;
+    /* padding-left: 1em; */
+    padding-right: 3em;
     font-size: 125%;
     color:#e8e8e8;
     text-decoration: none;

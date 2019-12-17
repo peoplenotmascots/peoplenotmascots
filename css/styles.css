@@ -1,1 +1,104 @@
- 
+html, body {
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Manifold', Fallback, sans-serif;
+}
+
+html {
+    background-color: #a41d21; /*#b30000;*/
+}
+
+#middle {
+    background-color: #f8f7f3; /*#fdfdfd;*/
+    min-height: 100%;
+    max-width: 64em;
+    border: 1px solid #222;
+    margin: auto;
+    -webkit-box-shadow: 0 0 12px 3px #2b2b2b;
+    -moz-box-shadow: 0 0 12px 3px #2b2b2b;
+    box-shadow: 0 0 12px 3px #2b2b2b; /* rgba(0, 0, 0, 0.5);*/
+}
+
+header {
+    background-color: #2d2d2d; /*#292929;*/
+    margin: 0;
+}
+
+header a {
+    text-decoration: none;
+}
+
+header h1 {
+    color: #f1f6f1; /*#f3f3f3;*/
+    font-family: 'Roboto', 'Arial', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 420%;
+    text-shadow: -5px 0 5px black, 0 5px 5px black, 5px 0 5px black, 0 -5px 5px black;
+    margin: 0;
+    padding-left: .9em;
+    padding-top: 1.8em;
+    padding-bottom: .6em;
+}
+
+#banner-image {
+    max-width: inherit;
+}
+
+main {
+    min-height: 100vh;
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-bottom: 4em;
+}
+
+article {
+    padding-top: 1em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+article h1 {
+    font-size: 200%;
+}
+article p {
+    font-family: 'Roboto', 'Helvetica', 'Arial', 'Lucida Sans', sans-serif;
+    font-size: 140%;
+    line-height: 150%;
+}
+
+footer {
+    /*height: 15em;*/
+    /* margin: 0; */
+    border-top: 2px solid black;
+    color: #ededed;
+    background-color: #333;
+    font-family: 'Noto Sans','Dejavu Sans','Roboto', 'Helvetica', 'Arial', 'Lucida Sans', sans-serif;
+    width: inherit;
+}
+
+#footer-link-box {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5em;
+    padding-top: 4em;
+    padding-bottom: 5.5em;
+    /* align-items: center;
+    align-content: center; */
+}
+
+#footer-link-box i {
+    padding: .5em;
+    font-weight: normal;
+}
+#footer-link-box a {
+    padding-left: 1em;
+    font-size: 125%;
+    color:#e8e8e8;
+    text-decoration: none;
+    font-weight: bold;
+    align-self: center;
+}
+#footer-link-box a:hover {
+    color: #fff;
+}

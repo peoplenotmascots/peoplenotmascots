@@ -51,7 +51,7 @@ header h1 {
     /* font-size: 60px; */
     text-shadow: -5px 0 5px black, 0 5px 5px black, 5px 0 5px black, 0 -5px 5px black;
     margin: 0;
-    padding-left: 3vw;
+    padding-left: 1em;
     padding-top: 1.8em;
     padding-bottom: .6em;
 }
@@ -67,8 +67,8 @@ main {
     min-height: 100vh;
     padding-top: 2vw;
     padding-bottom: 8vh;
-    padding-left: 6vw;
-    padding-right: 6vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
 }
 
 article {
@@ -130,22 +130,8 @@ footer {
 
 @media only screen and (max-width: 768px) {
     header h1 {
-        font-size: 290%;
-    }
-    article h1 {
-        font-size: 180%;
-    }
-    article p {
-        font-size: 125%;
-    }
-    #middle {
-        width: 94%;
-    }
-}
-
-@media only screen and (max-width: 360px) {
-    header h1 {
         font-size: 200%;
+        padding-left: 3vw;
     }
     article h1 {
         font-size: 170%;
@@ -154,6 +140,6 @@ footer {
         font-size: 115%;
     }
     #middle {
-        width: 94%;
+        width: 95%;
     }
 }

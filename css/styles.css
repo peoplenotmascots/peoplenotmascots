@@ -51,7 +51,7 @@ header h1 {
     /* font-size: 60px; */
     text-shadow: -5px 0 5px black, 0 5px 5px black, 5px 0 5px black, 0 -5px 5px black;
     margin: 0;
-    padding-left: 1em;
+    padding-left: 3vw;
     padding-top: 1.8em;
     padding-bottom: .6em;
 }
@@ -93,7 +93,7 @@ footer {
     color: #ededed;
     background-color: #333;
     font-family: 'Noto Sans','Dejavu Sans','Roboto', 'Helvetica', 'Arial', 'Lucida Sans', sans-serif;
-    width: inherit;
+    /* width: inherit; */
 }
 
 #footer-link-box {

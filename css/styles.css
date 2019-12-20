@@ -42,14 +42,15 @@ header a {
 
 header h1 {
     color: #f1f6f1; /*#f3f3f3;*/
-    font-family: 'Roboto', 'Arial', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* color: #eeeadb; */
+    font-family: 'Roboto','Overpass','Kanit','Fajalla One','Yanone Kaffeesatz','Libre Franklin','Josefin Sans','Karla','Oxygen','Heebo','Nunito','PT Serif','Roboto Condensed','Noto Serif','Oswald','Open Sans','Roboto', 'Arial', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 410%;
     /* font-size: 6.8vh; */
     /* font-size: 3.5vw; */
     /* font-size: 7.5ch; */
     /* font-size: 4rem; */
     /* font-size: 60px; */
-    text-shadow: -5px 0 5px black, 0 5px 5px black, 5px 0 5px black, 0 -5px 5px black;
+    text-shadow: -4px 0 4px black, 0 4px 4px black, 4px 0 4px black, 0 -4px 4px black;
     margin: 0;
     padding-left: 1em;
     padding-top: 1.8em;

@@ -43,18 +43,19 @@ header a {
 header h1 {
     color: #f0efea; /*#f3f3f3;*/
     /* color: #eeeadb; */
-    font-size: 420%;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 400%;
+    font-family: 'IBM Plex Sans','Open Sans Condensed','Roboto Condensed', sans-serif;
     /* font-size: 6.8vh; */
     /* font-size: 3.5vw; */
     /* font-size: 7.5ch; */
     /* font-size: 4rem; */
     /* font-size: 60px; */
-    text-shadow: -4px 0 4px black, 0 4px 4px black, 4px 0 4px black, 0 -4px 4px black;
+    /* text-shadow: -4px 0 4px black, 0 4px 4px black, 4px 0 4px black, 0 -4px 4px black; */
+    text-shadow: -.06em 0 .06em black, 0 .06em .06em black, .06em 0 .06em black, 0 -.06em .06em black;
     margin: 0;
-    padding-left: 1em;
-    padding-top: 1.8em;
-    padding-bottom: .6em;
+    padding-left: .9em;
+    padding-top: 1.6em;
+    padding-bottom: .5em;
 }
 
 #banner-image {

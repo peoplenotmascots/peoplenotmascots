@@ -52,9 +52,9 @@ header h1 {
     /* text-shadow: -4px 0 4px black, 0 4px 4px black, 4px 0 4px black, 0 -4px 4px black; */
     text-shadow: -.05em 0 .05em black, 0 .05em .05em black, .05em 0 .05em black, 0 -.05em .05em black;
     margin: 0;
-    padding-left: .86em;
-    padding-top: 1.38em;
-    padding-bottom: .45em;
+    padding-left: .85em;
+    padding-top: 1.32em;
+    padding-bottom: .42em;
 }
 
 #banner-image {

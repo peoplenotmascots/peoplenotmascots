@@ -19,7 +19,7 @@ html, body {
 
 body {
     background: #852124;
-    /* background-color: #888; */
+    /* background: #888; */
     /* animation: color-me-in 15s infinite alternate; */
 }
 @keyframes color-me-in {
@@ -35,7 +35,7 @@ body {
 }
 
 #middle {
-    background-color: #f8f7f3; /*#fdfdfd;*/
+    background: #f8f7f3; /*#fdfdfd;*/
     min-height: 100%;
     max-width: 64em;
     /* max-width: 90%; */
@@ -47,7 +47,7 @@ body {
 }
 
 header {
-    background-color: #2d2d2d; /*#292929;*/
+    background: #2d2d2d; /*#292929;*/
     margin: 0;
 }
 
@@ -73,7 +73,7 @@ header h1 {
 }
 
 nav {
-    background-color: #1b1b1b;
+    background-color: #1d1d1d;
     padding-top: .9em;
     padding-bottom: .8em;
     padding-left: 1em;
